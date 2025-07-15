@@ -1,0 +1,83 @@
+ body{
+            background-color: aqua;
+        }
+        #dv{
+            width: 500px;
+            height: 40vh;
+             margin-left: 400px;
+            background-image:linear-gradient(to top, magenta,blue, green);
+            margin-top: 100px;
+            border-radius: 20px;
+
+        }
+        /* #vid{
+            margin-left: 400px;
+            background-color: rgb(16, 107, 187);
+            margin-top: 230px;
+        } */
+#pla{
+    font-size: large;
+    margin-left: 410px;
+    margin-top:px;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    animation-name: audi;
+    animation-duration: 3s;
+        background-image:linear-gradient(to top,cyan,coral,magenta) ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+#paus{
+    font-size: large;
+    margin-top: 0px;
+    margin-left: 300px;
+    border-radius: 10px;
+        background-image:linear-gradient(to top,cyan,coral,magenta) ;
+    animation-name: audi;
+    border-radius: 100px;
+     width: 70px;
+    height: 70px;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+h1{
+    position: absolute;
+    padding-left: 560px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes audi {
+    0%{
+        /* transform: scale(0.5); */
+        background-image:linear-gradient(to top,cyan,coral,magenta) ;
+    }
+     20%{
+        transform: scale(0.8);
+        background-image:linear-gradient(to top,rgb(140, 250, 100),rgb(110, 135, 220),rgb(215, 90, 215)) ;
+
+    }
+     35%{
+        transform: scale(0.4);
+        background-image:linear-gradient(to top,rgb(140, 250, 100),rgb(110, 135, 220),rgb(215, 90, 215)) ;
+
+    }
+    50%{
+        transform: scale(1.1);
+        background-image:linear-gradient(to top,rgb(140, 250, 100),rgb(110, 135, 220),rgb(215, 90, 215)) ;
+
+    }
+     70%{
+        transform: scale(0.8);
+        background-image:linear-gradient(to top,rgb(140, 250, 100),rgb(110, 135, 220),rgb(215, 90, 215)) ;
+
+    }
+     100%{
+        transform: scale(0.4);
+        background-image:linear-gradient(to top,rgb(140, 250, 100),rgb(110, 135, 220),rgb(215, 90, 215)) ;
+
+    }
+     }
+    
