@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +12,7 @@
         <div class="divin">
             <input type="text" id="inp">
             <input type="button" name="" class="cl" id="back" onclick="back()" placeholder="button" value="Del">
-            <div/>
+        </div>
         <table>
             <tr>
                 <td>
@@ -54,8 +55,7 @@
                     <input type="button" name="" class="cl" id="plus" onclick="plus1()" placeholder="button" value="+">
                 </td>
                 <td>
-                    <input type="button" name="" class="cl" id="minus" onclick="minus1()" placeholder="button"
-                        value="-">
+                    <input type="button" name="" class="cl" id="minus" onclick="minus1()" placeholder="button"   value="-">
                 </td>
             </tr>
             <tr>
@@ -77,5 +77,6 @@
             </tr>
     </div>
     </table>
-    <script src="calculator.js">
-    </script>
+    <script src="calculator.js"> </script>
+</body>
+</html>
