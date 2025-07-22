@@ -1,9 +1,3 @@
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +7,6 @@
     <link rel="stylesheet" href="calculate.css">
 </head>
 <body>
-    <!-- <form action="" id="form"> -->
     <div class="main-con">
         <h1>Calculator app</h1>
         <div class="divin">
@@ -84,7 +77,6 @@
                 </td>
             </tr>
     </div>
-    <!-- </form> -->
     </table>
     <script src="calculator.js">
     </script>
