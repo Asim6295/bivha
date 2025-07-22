@@ -13,7 +13,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .divin{
-     width: 90%;
+     width: 100%;
     height: 65px;
     display: flex;
     background: lightgray;
@@ -30,8 +30,8 @@ gap: 4px;
 }
 
 #inp {
-    width: 77%;
-    height: 65px;
+    width: 90%;
+    height: 75px;
     margin-left: -10px;
     color: aliceblue;
     background-color: rgb(3, 61, 100);
