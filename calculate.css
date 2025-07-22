@@ -13,8 +13,8 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .divin{
-     width: 80%;
-    height: 56px;
+     width: 90%;
+    height: 65px;
     display: flex;
     background: lightgray;
 gap: 4px;
@@ -30,7 +30,7 @@ gap: 4px;
 }
 
 #inp {
-    width: 67%;
+    width: 77%;
     height: 56px;
     margin-left: -10px;
     color: aliceblue;
@@ -46,7 +46,7 @@ gap: 4px;
 
 table {
     box-shadow: 1px 1px 5px 5px;
-    width: 30%;
+    width: 58%;
     border-radius: 20px;
     border-top-right-radius: 1px;
     /* border-collapse: collapse; */
