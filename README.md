@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -78,5 +77,4 @@
     </div>
     </table>
     <script src="calculator.js"> </script>
-</body>
-</html>
+
