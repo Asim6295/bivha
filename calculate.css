@@ -31,7 +31,7 @@ gap: 4px;
 
 #inp {
     width: 77%;
-    height: 56px;
+    height: 65px;
     margin-left: -10px;
     color: aliceblue;
     background-color: rgb(3, 61, 100);
@@ -46,7 +46,7 @@ gap: 4px;
 
 table {
     box-shadow: 1px 1px 5px 5px;
-    width: 58%;
+    width: 70%;
     border-radius: 20px;
     border-top-right-radius: 1px;
     /* border-collapse: collapse; */
