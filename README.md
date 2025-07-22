@@ -11,7 +11,6 @@
         <div class="divin">
             <input type="text" id="inp">
             <input type="button" name="" class="cl" id="back" onclick="back()" placeholder="button" value="Del">
-        </div>
         <table>
             <tr>
                 <td>
