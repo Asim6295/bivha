@@ -1,5 +1,6 @@
  <title>Document</title>
     <link rel="stylesheet" href="calculate.css">
+    <body>
     <div class="main-con">
         <h1>Calculator app</h1>
         <div class="divin">
