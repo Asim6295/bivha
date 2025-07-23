@@ -51,7 +51,10 @@ table {
     border-top-right-radius: 1px;
     /* border-collapse: collapse; */
 }
-
+tbody{
+    width:60%;
+    
+}
 tr,
 td {
     padding: 30px;
