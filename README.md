@@ -12,7 +12,7 @@
             <input type="text" id="inp">
             <input type="button" name="" class="cl" id="back" onclick="back()" placeholder="button" value="Del">
         </div>
-              <tabel>
+              <table>
           <div>
             <tr>
                 <td>
@@ -76,6 +76,6 @@
                 </td>
             </tr>
     </div>
-                  </tabel>
+                  </table>
     <script src="calculator.js"> </script>
 
