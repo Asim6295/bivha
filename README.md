@@ -13,6 +13,7 @@
             <input type="button" name="" class="cl" id="back" onclick="back()" placeholder="button" value="Del">
         </div>
           <div>
+              <tabel>
             <tr>
                 <td>
                     <input type="button" class="cl" name="" id="one" onclick="fun1()" placeholder="button" value="1">
@@ -74,6 +75,7 @@
                         value="=">
                 </td>
             </tr>
+                  </tabel>
     </div>
     <script src="calculator.js"> </script>
 
