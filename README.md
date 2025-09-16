@@ -2,80 +2,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="calculate.css">
+    <title>wheather map</title>
+    <!-- <link rel="stylesheet" href="wheather.css"> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/4.1.13/lib.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <style>
+
+        .main{
+            width: 40%;
+            height: 60vh;
+            border-radius: 20px;
+            background: linear-gradient(to bottom,lightblue,rgb(97, 95, 68));
+            /* align-content: center; */
+            margin: 400px;
+            margin-top: 100px;
+            
+            /* align-content: space-between; */
+        }
+        #lon{
+            width: 50%;
+            height: 40px;
+            border-radius: 40px;
+            text-align: center;
+            font-size: large;
+        }
+        #btn{
+            width: 15%;
+            height: 40px;
+            border-radius: 20px;
+            background: yellow;
+            /* position: relative; */
+            /* margin: 200px; */
+        }
+        .lab{
+            font-size: x-large;
+            /* position: relative; */
+        }
+        h1{
+            text-align: center;
+            color: blanchedalmond;
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;  
+        }
+
+        h2{
+            text-align: center;
+        }
+    </style> -->
 </head>
 <body>
-    <div class="main-con">
-        <h1>Calculator app</h1>
-        <div class="divin">
-            <input type="text" id="inp">
-            <input type="button" name="" class="cl" id="back" onclick="back()" placeholder="button" value="Del">
-        </div>
-              <table>
-          <div>
-            <tr>
-                <td>
-                    <input type="button" class="cl" name="" id="one" onclick="fun1()" placeholder="button" value="1">
-                </td>
-                <td>
-                    <input type="button" class="cl" name="" id="two" onclick="two1()" placeholder="button" value="2">
-                </td>
-                <td>
-                    <input type="button" class="cl" name="" id="three" onclick="three1()" placeholder="button"
-                        value="3">
-                </td>
-                <td>
-                    <input type="button" class="cl" name="" id="four" onclick="four1()" placeholder="button" value="4">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="button" name="" class="cl" id="five" onclick="five1()" placeholder="button" value="5">
-                </td>
-                <td>
-                    <input type="button" name="" class="cl" id="six" onclick="six1()" placeholder="button" value="6">
-                </td>
-                <td>
-                    <input type="button" name="" class="cl" class="cl" id="seven" onclick="seven1()"
-                        placeholder="button" value="7">
-                </td>
-                <td>
-                    <input type="button" class="cl" name="" id="button" onclick="fun()" placeholder="button" value="8">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="button" name="" class="cl" id="nine" onclick="nine1()" placeholder="button" value="9">
-                </td>
-                <td>
-                    <input type="button" name="" class="cl" id="zero" onclick="zero1()" placeholder="button" value="0">
-                </td>
-                <td>
-                    <input type="button" name="" class="cl" id="plus" onclick="plus1()" placeholder="button" value="+">
-                </td>
-                <td>
-                    <input type="button" name="" class="cl" id="minus" onclick="minus1()" placeholder="button"   value="-">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="button" name="" class="cl" id="mul" onclick="mul1()" placeholder="button" value="*">
-                </td>
-                <td>
-                    <input type="button" name="" class="cl" id="divide" onclick="divide1()" placeholder="button"
-                        value="/">
-                </td>
-                <td>
-                    <input type="button" name="" class="cl" id="clear" onclick="clear1()" placeholder="button"
-                        value="clear">
-                </td>
-                <td>
-                    <input type="button" name="" class="cl" id="equal" onclick="equal1()" placeholder="button"
-                        value="=">
-                </td>
-            </tr>
+    <div class="container  ">
+    <div class="max-w-md mx-auto  rounded-xl shadow-xl bg-gradient-to-r
+                        from-indigo-500 to-purple-600 text-white 
+                overflow-hidden sm:max-w-lg lg:max-w-2xl text-center  transition-transform transform hover:scale-105 mt-4">
+    <h1  class="text-2xl mt-2">WEATHER FORECAST</h1>
+    <label for=""  class="text-2xl mt-2 min[400px]:text-bg-green-500"> Name of the city</label>
+    <input type="text" class="border-2 border-black-400 rounded-sm text-2xl max-w-md mt-2" id="lon" placeholder="enter the city name">
+    <br>
+    <button id="btn" class="border-2 border-black-400 rounded-sm text-2xl mt-2 ml-30 bg-gradient-to-r
+                        from-red-500 to-teal-600 text-white ">Submit</button>
+    <div id="din"> <h2  class="text-2xl mt-2">temperature : 0 °C</h2></div>
+    <div id="wind"> <h2 class="text-2xl mt-2">feels like : 0 °C</h2></div>
+    <div id="cloud"> <h2 class="text-2xl mt-2">city name : 0</h2></div>
+    <div id="des"> <h2 class="text-2xl mt-2">weather description : </h2></div>
+    <div id=""><h2 id="date" class="text-2xl mt-2">date: 0</h2></div>
     </div>
-                  </table>
-    <script src="calculator.js"> </script>
+</div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/4.1.13/lib.min.js"  crossorigin="anonymous"></script> -->
+<script src="index.js"></script>
+
+
+
+
 
