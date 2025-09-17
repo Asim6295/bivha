@@ -42,7 +42,7 @@
             text-align: center;
             color: blanchedalmond;
 
-            font-family: Verdana, Geneva, Tahoma, sans-serif;  
+            font-family: Verdana, Geneva, Tahoma, sans-serif;     
         }
 
         h2{
@@ -54,24 +54,22 @@
     <div class="container  ">
     <div class="max-w-md mx-auto  rounded-xl shadow-xl bg-gradient-to-r
                         from-indigo-500 to-purple-600 text-white 
-                overflow-hidden sm:max-w-lg lg:max-w-2xl text-center  transition-transform transform hover:scale-105 mt-4">
+                overflow-hidden sm:max-w-lg lg:max-w-2xl text-center  transition-transform transform hover:scale-105 mt-7 py-5">
     <h1  class="text-2xl mt-2">WEATHER FORECAST</h1>
-    <label for=""  class="text-2xl mt-2 min[400px]:text-bg-green-500"> Name of the city</label>
-    <input type="text" class="border-2 border-black-400 rounded-sm text-2xl max-w-md mt-2" id="lon" placeholder="enter the city name">
+    <label for=""  class="text-2xl mt-10 min[400px]:text-bg-green-500"> Name of the city</label>
+    <input type="text" class="border-2 border-black-400 rounded-lg text-2xl max-w-md mt-10 py-3 px-6" id="lon" placeholder="enter the city name">
     <br>
-    <button id="btn" class="border-2 border-black-400 rounded-sm text-2xl mt-2 ml-30 bg-gradient-to-r
-                        from-red-500 to-teal-600 text-white ">Submit</button>
-    <div id="din"> <h2  class="text-2xl mt-2">temperature : 0 °C</h2></div>
-    <div id="wind"> <h2 class="text-2xl mt-2">feels like : 0 °C</h2></div>
-    <div id="cloud"> <h2 class="text-2xl mt-2">city name : 0</h2></div>
-    <div id="des"> <h2 class="text-2xl mt-2">weather description : </h2></div>
-    <div id=""><h2 id="date" class="text-2xl mt-2">date: 0</h2></div>
+    <button id="btn" class="border-2 border-black-400 rounded-lg text-2xl mt-4 ml-30 bg-gradient-to-r from-red-500 to-teal-yellow py-3 px-6 mt-3 text-white transition-transform transform hover:scale-105 ">Submit</button>
+    <div id="din"> <h2 id="h2"  class="text-2xl mt-2 pt-4">temperature : 0 °C</h2></div>
+    <div id="wind"> <h2 id="h0" class="text-2xl mt-2">feels like : 0 °C</h2></div>
+    <div id="cloud"> <h2 id="h1" class="text-2xl mt-2">city name : </h2></div>
+    <div id="des"> <h2 id="h3" class="text-2xl mt-2">weather description : </h2></div>
+    <div id=""><h2 id="date" class="text-2xl mt-2">date: 00/00/00 ,00:00:00</h2></div>
     </div>
 </div>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/4.1.13/lib.min.js"  crossorigin="anonymous"></script> -->
 <script src="index.js"></script>
-
-
+ <!-- <script src="newjs.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/4.1.13/lib.min.js"  crossorigin="anonymous"></script> -->
 
 
 
