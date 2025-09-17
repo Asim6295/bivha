@@ -56,10 +56,10 @@
                         from-indigo-500 to-purple-600 text-white 
                 overflow-hidden sm:max-w-lg lg:max-w-2xl text-center  transition-transform transform hover:scale-105 mt-7 py-5">
     <h1  class="text-2xl mt-2">WEATHER FORECAST</h1>
-    <label for=""  class="text-2xl mt-10 min[400px]:text-bg-green-500"> Name of the city</label>
+    <label for=""  class="text-2xl mt-10 min[400px]:text-bg-green-500">  City name</label>
     <input type="text" class="border-2 border-black-400 rounded-lg text-2xl max-w-md mt-10 py-3 px-6" id="lon" placeholder="enter the city name">
     <br>
-    <button id="btn" class="border-2 border-black-400 rounded-lg text-2xl mt-4 ml-30 bg-gradient-to-r from-red-500 to-teal-yellow py-3 px-6 mt-3 text-white transition-transform transform hover:scale-105 "> Submit</button>     
+ <button id="btn" class="border-2 border-black-400  text-2xl mt-4 ml-30 bg-gradient-to-r from-red-500 to-teal-yellow py-3 px-6 mt-3 text-white transition-transform transform hover:scale-105 rounded-lg "> Submit</button>     
     <div id="din"> <h2 id="h2"  class="text-2xl mt-2 pt-4">temperature : 0 °C</h2></div>
     <div id="wind"> <h2 id="h0" class="text-2xl mt-2">feels like : 0 °C</h2></div>
     <div id="cloud"> <h2 id="h1" class="text-2xl mt-2">city name : </h2></div>
