@@ -34,7 +34,7 @@ async function nam(cityName) {
   console.log(va)
 
 
-  document.querySelector("h2").innerHTML = `<h2>temperature  : ${va.main.temp} °C</h2>`;
+  document.querySelector("h2").innerHTML = `<h2>temperature  : ${va.main.temp}  °C</h2>`;
   document.getElementById("h0").innerHTML = `<h2> feels like : ${va.main.feels_like} °C </h2>`;
   document.getElementById("h1").innerHTML = `<h2>city name : ${va.name}</h2>`;
   document.getElementById("h3").innerHTML = `<h2> weather description : ${va.weather[0].description}</h2>`;
@@ -68,3 +68,4 @@ button.addEventListener("click", () => {
 // // }
 
 // console.log(arr)
+
